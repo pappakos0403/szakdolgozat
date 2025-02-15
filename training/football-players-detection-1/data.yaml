@@ -10,6 +10,6 @@ roboflow:
   url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1
   version: 1
   workspace: roboflow-jvuqo
-test: ../test/images
-train: football-players-detection-1/train/images
-val: football-players-detection-1/valid/images
+test: C:/Users/Ákos/Desktop/Ákos/Szakdolgozat/football_analysis/training/football-players-detection-1/test/images
+train: C:/Users/Ákos/Desktop/Ákos/Szakdolgozat/football_analysis/training/football-players-detection-1/train/images
+val: C:/Users/Ákos/Desktop/Ákos/Szakdolgozat/football_analysis/training/football-players-detection-1/valid/images
