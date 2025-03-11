@@ -34,7 +34,7 @@ class Tracker:
         for frame_num, detection in enumerate(detections):
             cls_names = detection.names
             cls_names_inv = {value:key for key, value in cls_names.items()}
-            print(cls_names)
+            #print(cls_names)
 
             # Convert to supervision Detection format
             detection_supervision = sv.Detections.from_ultralytics(detection)
@@ -74,3 +74,5 @@ class Tracker:
                 pickle.dump(tracks,f)
 
         return tracks
+    
+    
