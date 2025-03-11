@@ -26,9 +26,9 @@ class Tracker:
         detections = self.detect_frames(frames)
 
         tracks={
-            "players:[]",
-            "referees:[]",
-            "ball:[]"
+            "players": [],
+            "referees": [],
+            "ball": []
         }
 
         for frame_num, detection in enumerate(detections):
